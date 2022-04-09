@@ -161,6 +161,15 @@ $white:white;
 }
 
 @media screen and (max-width:540px) {
+     .btn{
+          left: 30%;
+     }
+     .btn-stop{
+          left: 30%;
+     }
+     .btn_pause_1{
+          left: 60%;
+     }
      #display_2{
           display: flex;
           margin-top: 10rem;
