@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: black;
+}
+
+.inactive {
+  display: none !important;
+}
+
+.active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.display_2_inactive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.display_2_inactive h1 {
+  color: white;
+  margin-right: 14rem;
+  width: 8rem;
+  height: 6rem;
+  font-size: 4em;
+  border: none;
+  font-family: sans-serif;
+}
+
+.display_2_inactive_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.display_2_inactive_2 h1 {
+  color: white;
+  margin-right: 14rem;
+  width: 8rem;
+  height: 6rem;
+  font-size: 4em;
+  border: none;
+  font-family: sans-serif;
+}
+
+#button_pr-img {
+  width: 4rem;
+  height: 4rem;
+  color: blue;
+  font-size: 4rem;
+}
+
+#display-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#display-first select {
+  color: white;
+  margin-right: 3rem;
+  width: 8rem;
+  height: 6rem;
+  font-size: 4em;
+  border: none;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20%;
+  left: 54%;
+}
+
+.btn i {
+  color: blue;
+  font-size: 2.3em;
+  position: relative;
+  left: 0.05em;
+  background-color: #161616;
+}
+
+.btn #start {
+  cursor: pointer;
+  background-color: #161616;
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 4rem;
+}
+
+.btn-stop {
+  position: absolute;
+  bottom: 20%;
+  left: 54%;
+}
+
+.btn-stop i {
+  color: blue;
+  font-size: 2.8em;
+  position: relative;
+  left: 0.03em;
+  background-color: #161616;
+}
+
+.btn-stop #stop {
+  cursor: pointer;
+  background-color: #161616;
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 4rem;
+}
+
+.btn_pause_1 {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+}
+
+.btn_pause_1 #pause {
+  cursor: pointer;
+  background-color: #161616;
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 4rem;
+}
+
+.btn_pause_1 i {
+  color: blue;
+  font-size: 3em;
+  position: relative;
+  left: 0.03em;
+  background-color: #161616;
+}
+
+#display_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#display_2 h1 {
+  color: white;
+  margin-right: 14rem;
+  width: 8rem;
+  height: 6rem;
+  font-size: 4em;
+  border: none;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 540px) {
+  #display_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 7.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #display_2 h1 {
+    color: white;
+    margin-right: 14rem;
+    width: 8rem;
+    height: 6rem;
+    font-size: 4em;
+    border: none;
+    font-family: sans-serif;
+  }
+}
+/*# sourceMappingURL=style_2.css.map */
