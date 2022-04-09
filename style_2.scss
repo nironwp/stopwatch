@@ -186,3 +186,37 @@ $white:white;
           }
      }
 }
+
+@media screen and (max-width:375px){
+     .btn{
+          left: 10%;
+     }
+     .btn-stop{
+          left: 10%;
+     }
+     .btn_pause_1{
+          left: 60%;
+     }
+     #display_2{
+          display: flex;
+          margin-top: 10rem;
+          margin-left: 2rem;
+          justify-content: center;
+          h1{
+               color: $white;
+               margin-right: 16rem;
+               width: 3rem;
+               height: 6rem;
+               font-size: 3.8em;
+               border: none;
+               font-family: sans-serif;
+          }
+     }
+     #display-first select{
+          margin-right: 0;
+     }
+
+     select#segundos{
+          margin-right: 6rem;
+     }
+}
